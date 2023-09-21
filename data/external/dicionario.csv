@@ -9,7 +9,7 @@ weekday,Dia da semana,Qualitativa,Ordinal
 workingday,"Indica se é dia útil ou não (0: não, 1: sim)",Qualitativa,Nominal
 weathersit,"Condição climática (1: Limpo, 2: Nublado, 3: Leve neve/chuva, 4: Chuva forte/neve)",Qualitativa,Ordinal
 temp,"Temperatura normalizada em Celsius(min = -8 graus, max = 39 graus)",Quantitativa,Contínua
-atemp,"Sensação térmica normalizada em Celsius (min = -8 graus, max = 39 graus)",Quantitativa,Contínua
+atemp,"Sensação térmica normalizada em Celsius (min = -16 graus, max = 50 graus)",Quantitativa,Contínua
 hum,Umidade normalizada,Quantitativa,Contínua
 windspeed,Velocidade do vento normalizada (max 100),Quantitativa,Contínua
 casual,Contagem de usuários casuais,Quantitativa,Discreta
