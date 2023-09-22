@@ -7,7 +7,6 @@ Este conjunto de dados contém a contagem horária e diária de bicicletas de al
 * season : estação do ano (1:inverno, 2:primavera, 3:verão, 4:outono)
 * yr : ano (0: 2011, 1:2012)
 * mnth : mês (1 a 12)
-* hr : hora (0 a 23)
 * holiday : indica se o dia é feriado ou não
 * weekday : dia da semana
 * workingday : se o dia não é nem fim de semana nem feriado é 1, caso contrário é 0.
