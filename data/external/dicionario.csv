@@ -1,17 +1,17 @@
-variavel,significado,tipo,subtipo
-instant,Índice de cada registro,Quantitativa,Discreta
-dteday,Data,Quantitativa,Data
-season,"Estação do ano (1:inverno, 2:primavera, 3:verão, 4:outono)",Qualitativa,Nominal
-yr,"Ano em que ocorreu a locação (0: 2011, 1: 2012)",Quantitativa,Discreta
-mnth,Mês,Qualitativa,Ordinal
-holiday,"Indica se era ou não feriado (0: não, 1: sim)",Qualitativa,Nominal
-weekday,Dia da semana,Qualitativa,Ordinal
-workingday,"Indica se é dia útil ou não (0: não, 1: sim)",Qualitativa,Nominal
-weathersit,"Condição climática (1: Limpo, 2: Nublado, 3: Leve neve/chuva, 4: Chuva forte/neve)",Qualitativa,Ordinal
-temp,"Temperatura normalizada em Celsius(min = -8 graus, max = 39 graus)",Quantitativa,Contínua
-atemp,"Sensação térmica normalizada em Celsius (min = -16 graus, max = 50 graus)",Quantitativa,Contínua
-hum,Umidade normalizada,Quantitativa,Contínua
-windspeed,Velocidade do vento normalizada (max 100),Quantitativa,Contínua
-casual,Contagem de usuários casuais,Quantitativa,Discreta
-registered,Contagem de usuários registrados,Quantitativa,Discreta
-cnt,Contagem total de aluguéis,Quantitativa,Discreta
+variavel,significado,tipo,subtipo,resposta
+instant,Índice de cada registro,Quantitativa,Discreta,True
+dteday,Data,Quantitativa,False
+season,"Estação do ano (1:inverno, 2:primavera, 3:verão, 4:outono)",Qualitativa,Nominal,False
+yr,"Ano em que ocorreu a locação (0: 2011, 1: 2012)",Quantitativa,Discreta,False
+mnth,Mês,Qualitativa,Ordinal, False
+holiday,"Indica se era ou não feriado (0: não, 1: sim)",Qualitativa,Nominal,False
+weekday,Dia da semana,Qualitativa,Ordinal,False
+workingday,"Indica se é dia útil ou não (0: não, 1: sim)",Qualitativa,Nominal,False
+weathersit,"Condição climática (1: Limpo, 2: Nublado, 3: Leve neve/chuva, 4: Chuva forte/neve)",Qualitativa,Ordinal,False
+temp,"Temperatura normalizada em Celsius(min = -8 graus, max = 39 graus)",Quantitativa,Contínua,False
+atemp,"Sensação térmica normalizada em Celsius (min = -16 graus, max = 50 graus)",Quantitativa,Contínua,False
+hum,Umidade normalizada,Quantitativa,Contínua,False
+windspeed,Velocidade do vento normalizada (max 100),Quantitativa,Contínua,False
+casual,Contagem de usuários casuais,Quantitativa,Discreta,True
+registered,Contagem de usuários registrados,Quantitativa,Discreta,True
+cnt,Contagem total de aluguéis,Quantitativa,Discreta,True
