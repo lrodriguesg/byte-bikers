@@ -1,6 +1,6 @@
 variavel,significado,tipo,subtipo,resposta
 instant,Índice de cada registro,Quantitativa,Discreta,True
-dteday,Data,Quantitativa,False
+dteday,Data,Quantitativa,Data,False
 season,"Estação do ano (1:inverno, 2:primavera, 3:verão, 4:outono)",Qualitativa,Nominal,False
 yr,"Ano em que ocorreu a locação (0: 2011, 1: 2012)",Quantitativa,Discreta,False
 mnth,Mês,Qualitativa,Ordinal, False
